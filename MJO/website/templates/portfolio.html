@@ -1,45 +1,44 @@
-<!-- your html code here -->
 <style>
-    .carousel-item img {
-      width: 400px; /* Ancho deseado */
-      height: 300px; /* Alto deseado */
-      object-fit: contain;
-    }
-  </style>
+  .carousel-item img {
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
+  }
 
-<div class="container">
-    <hr>
+  #carouselExampleIndicators {
+    background-color: rgb(255, 255, 255);
+  }
+</style>
 
-    <h2 class="h1 mt-5" id="scrollspyHeading2">Portfolio</h2>
-    <p class="h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae ab vitae, optio pariatur
-        eveniet at
-        voluptates odio voluptate totam rem hic tempore. Illo iusto cum, quod aliquid quos dolore.
-    </p>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://media.istockphoto.com/id/1401927281/photo/balance-with-green-zucchini-vegetables-on-beige-background-healthy-food-and-life-balance.jpg?s=1024x1024&w=is&k=20&c=76EO3Ft-o5Nr4oZ5WS6pwwI_Tm6JTXZFYu3ahjfw5ic=" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://media.istockphoto.com/id/2159952851/photo/fresh-ripe-avocado-falling-in-the-air-isolated.jpg?s=2048x2048&w=is&k=20&c=tHX1U_f9Pks8_d3hsvd-6zotN0eCsL8I_7brfdmUwtQ=" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://media.istockphoto.com/id/1176102471/photo/grape_01.jpg?s=1024x1024&w=is&k=20&c=akoURAxnVQPcP1lnU88Byy_TyGtS_Ms-kyYKd53UwAo=" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+<div class="container-fluid">
+  <hr>
+  <h2 class="h1 mt-4 mb-4" id="scrollspyHeading2" style="text-align: center;">Mi Trabajo</h2>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://media.istockphoto.com/id/1401927281/photo/balance-with-green-zucchini-vegetables-on-beige-background-healthy-food-and-life-balance.jpg?s=1024x1024&w=is&k=20&c=76EO3Ft-o5Nr4oZ5WS6pwwI_Tm6JTXZFYu3ahjfw5ic=" class="d-block w-100" alt="...">
       </div>
-    <hr class="mb-5 mt-5">
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/2159952851/photo/fresh-ripe-avocado-falling-in-the-air-isolated.jpg?s=2048x2048&w=is&k=20&c=tHX1U_f9Pks8_d3hsvd-6zotN0eCsL8I_7brfdmUwtQ=" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/1176102471/photo/grape_01.jpg?s=1024x1024&w=is&k=20&c=akoURAxnVQPcP1lnU88Byy_TyGtS_Ms-kyYKd53UwAo=" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <hr class="mb-5 mt-5">
 </div>
